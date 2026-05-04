@@ -1,0 +1,12 @@
+numero_correto = 38
+palpite = 0
+
+while palpite != numero_correto:
+    palpite = int(input("Tente adivinhar o número: "))
+    
+    if palpite < numero_correto:
+        print("Maior")
+    elif palpite > numero_correto:
+        print("Menor")
+
+print("Acertou!")
