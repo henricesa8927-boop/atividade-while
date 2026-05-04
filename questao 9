@@ -1,0 +1,14 @@
+pos = neg = 0
+
+n = int(input("Digite um número (0 para parar): "))
+
+while n != 0:
+    if n > 0:
+        pos += 1
+    else:
+        neg += 1
+    
+    n = int(input("Digite outro número (0 para parar): "))
+
+print("Positivos:", pos)
+print("Negativos:", neg)
