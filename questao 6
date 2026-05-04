@@ -1,0 +1,19 @@
+maior = 0
+primeiro = True
+
+while True:
+    numero = int(input("Digite um número (0 para parar): "))
+
+    if numero == 0:
+        break
+
+    if primeiro:
+        maior = numero
+        primeiro = False
+    elif numero > maior:
+        maior = numero
+
+if not primeiro:
+    print("Maior número digitado:", maior)
+else:
+    print("Nenhum número foi digitado.")
