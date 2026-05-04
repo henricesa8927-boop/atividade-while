@@ -1,4 +1,4 @@
-senha_correta = "275835"
+senha_correta = "2777"
 senha = ""
 
 while senha != senha_correta:
